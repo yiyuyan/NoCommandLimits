@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.ncl.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ncl.refmap.json",
+  "mixins": [
+    "EffectCommandMixin",
+    "EnchantmentCommandMixin",
+    "EnchantmentHelperMixin",
+    "EnchantmentMixin",
+    "FillCommandMixin",
+    "GiveCommandMixin",
+    "ItemStackMixin",
+    "LevelMixin",
+    "RangedAttributeMixin",
+    "StringReaderMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
