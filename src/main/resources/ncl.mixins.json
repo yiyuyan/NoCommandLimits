@@ -5,16 +5,19 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "ncl.refmap.json",
   "mixins": [
+    "CloneCommandMixin",
     "EffectCommandMixin",
     "EnchantmentCommandMixin",
     "EnchantmentHelperMixin",
     "EnchantmentMixin",
+    "FillBiomeCommandMixin",
     "FillCommandMixin",
     "GiveCommandMixin",
     "ItemStackMixin",
     "LevelMixin",
     "RangedAttributeMixin",
-    "StringReaderMixin"
+    "StringReaderMixin",
+    "WeatherCommandMixin"
   ],
   "client": [
   ],
